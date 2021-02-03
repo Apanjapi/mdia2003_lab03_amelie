@@ -175,23 +175,7 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-   /* Small only */
-  @media screen and (max-width: 39.9375em) {
-    
-    .big_text {
-      color: #3b3b3b;
-    }
-  }
-
-  /* Medium only */
-  @media screen and (min-width: 40em) and
-  (max-width: 63.9375em) {
-
-  }
-  /* Large and up */
-  @media screen and (min-width: 64em) {
-
-  }
+   
 
 /* ==========================================================================
    Print styles.

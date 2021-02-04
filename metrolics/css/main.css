@@ -70,13 +70,17 @@ footer {
 }
 
 .sub_text {
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
     margin: 1vw 0 1vw 0;
 }
 
 .white {
     color: #ffffff;
+}
+
+.far {
+    justify-content: space-between;
 }
 
 .logo {
@@ -156,16 +160,60 @@ footer {
 }
 
 .img_showcase {
-    width: 20vw;
-    height: 15vw;
+    width: 25vw;
+    height: 20vw;
     margin: 0 2vw;
     position: relative;
 }
 
-.block {
+.red_block {
+    background-color: #d8605f;
     z-index: 2;
     position: relative;
+    top: -21.14vw;
+    left: 2vw;
+    width: 5vw;
 }
+
+.blue_block {
+    background-color: #19b2de;
+    z-index: 2;
+    position: relative;
+    top: -11vw;
+    left: 2vw;
+    width: 25vw;
+}
+
+.add_left {
+    padding: 0 0 0 1vw;
+}
+
+.camera_icon {
+    margin: 1.5vw;
+    width: 2vw;
+    height: 2vw;
+}
+
+.img_showcase_hover_blue {
+    background-color: #19b2de;
+    z-index: 2;
+    position: relative;
+    top: -20.2vw;
+    left: 2vw;
+    width: 25vw;
+    height: 20vw;
+    opacity: 0.7;
+}
+
+.img_showcase_hover {
+    z-index: 3;
+    position: relative;
+    top: -26vw;
+    left: 3vw;
+    width: 25vw; 
+}
+
+
 
 .padding {
     padding: 1vw;
@@ -175,7 +223,6 @@ footer {
     width: 15vw;
     margin: 0 2vw;
 }
-
 
 /* footer */
 .review {
